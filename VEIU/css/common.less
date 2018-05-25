@@ -1,0 +1,95 @@
+.header {
+  height: 150px;
+  width: 100%;
+  .title-contain {
+    height: 100%;
+    width: 100%;
+    line-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    .logo {
+      margin-left: 8.4%;
+    }
+    .nav-title {
+      display: flex;
+      margin: 0;
+      margin-right: 8.4%;
+      li {
+        list-style: none;
+        padding: 0 20px;
+        margin: 0 10px;
+        cursor: pointer;
+      }
+      a {
+        text-decoration: none;
+        color: #4b4b4b;
+        display: block;
+      }
+      .active {
+        a{
+          color: #0ec2dd;
+        }
+        border-bottom: 3px solid #0ec2dd;
+      }
+    }
+  }
+}
+body {
+  min-width: 1400px;
+  margin:0;
+  // font-size: 18px;
+}
+.footer{
+    background: #0e0f14;
+    color:#fff;
+    padding:130px 8.1%;
+    .company-main{
+        float: left;
+        line-height: 38px;
+        font-size: 22px;
+        margin-right: 112px;
+        @media screen and (max-width: 1680px) {
+          margin-right: 20px;
+          font-size: 18px;
+        }
+        .company-name{
+            font-weight: bold;
+        }
+    }
+    .company-address{
+      float: left;
+      padding-left:36px;
+      background: url(./../images/address-icon.png) no-repeat left center;
+      background-size:18px; 
+      font-size: 22px;
+      @media screen and (max-width: 1680px) {
+        font-size: 18px;
+      }
+    }
+    .company-phone{
+        float: right;
+        font-size: 40px;
+        @media screen and (max-width: 1680px) {
+          font-size: 34px;
+        }
+        font-weight: bold;
+        font-style: italic;
+        padding-left:48px;
+        background: url(./../images/phone-code.png) no-repeat left center;
+        position: relative;
+        .phone-title{
+            position: absolute;
+            font-style: normal;
+            font-weight: normal;
+            right: 0;
+            top:-25px;
+            text-align: right;
+            font-size: 22px;
+            @media screen and (max-width: 1680px) {
+              font-size: 20px;
+            }
+        }
+
+    }
+}

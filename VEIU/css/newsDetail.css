@@ -1,0 +1,50 @@
+.main {
+  border-top: 1px solid #dadada;
+  padding: 108px 8.3% 290px;
+}
+.main .news-title {
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 86px;
+}
+@media screen and (max-width: 1680px) {
+  .main .news-title {
+    font-size: 38px;
+  }
+}
+.main .news-title .news-time {
+  font-size: 20px;
+  color: #959595;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: normal;
+}
+@media screen and (max-width: 1680px) {
+  .main .news-title .news-time {
+    font-size: 18px;
+  }
+}
+.main .main-msg {
+  font-size: 20px;
+  color: #565656;
+}
+@media screen and (max-width: 1680px) {
+  .main .main-msg {
+    font-size: 18px;
+  }
+}
+.main .main-msg .msg-list {
+  line-height: 34px;
+}
+.main .main-msg .msg-img img {
+  width: 100%;
+}
+.main .main-msg .marginTop50 {
+  margin-top: 50px;
+}
+.main .main-msg .marginTop85 {
+  margin-top: 80px;
+}

@@ -1,0 +1,33 @@
+.main .index-main .img-bg {
+  width: 100%;
+  display: block;
+}
+.main .company-msg {
+  padding: 0 8.1%;
+  font-size: 20px;
+  color: #565656;
+}
+@media screen and (max-width: 1680px) {
+  .main .company-msg {
+    font-size: 18px;
+  }
+}
+.main .company-msg .Vision {
+  line-height: 36px;
+  margin-top: 152px;
+}
+.main .company-msg .word {
+  line-height: 36px;
+  margin-top: 50px;
+}
+.main .company-msg .many-address {
+  margin: 100px 0;
+  display: flex;
+}
+.main .company-msg .many-address .introduce-word {
+  line-height: 36px;
+  padding-left: 50%;
+  padding-bottom: 200px;
+  background: url(../images/introduce/introduce-img.png) no-repeat left top;
+  background-size: 40%;
+}

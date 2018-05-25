@@ -1,0 +1,176 @@
+.main {
+  color: #565656;
+  .img-bg {
+    width: 100%;
+    display: block;
+  }
+  .img1 {
+    position: relative;
+    .img1-msg {
+      position: absolute;
+      top: 60px;
+      right: 12.3%;
+      @media screen and (max-width: 1680px) {
+        top: 5px;
+      }
+      .msg-title {
+        font-size: 30px;
+        @media screen and (max-width: 1680px) {
+          font-size: 28px;
+        }
+      }
+      .border {
+        height: 0;
+        width: 78px;
+        border: 1px solid #17d6e8;
+        margin: 48px 0;
+        @media screen and (max-width: 1680px) {
+          margin: 25px 0;
+        }
+      }
+      .main-msg {
+        font-size: 20px;
+        @media screen and (max-width: 1680px) {
+          font-size: 18px;
+        }
+        .msg-top {
+          line-height: 38px;
+        }
+        .msg-bottom {
+          margin-top: 30px;
+          line-height: 38px;
+          margin-bottom: 48px;
+          @media screen and (max-width: 1680px) {
+            margin-top: 15px;
+            line-height: 36px;
+            margin-bottom: 30px;
+          }
+          .list {
+            position: relative;
+            em {
+              position: absolute;
+              display: block;
+              height: 5px;
+              width: 5px;
+              border-radius: 50%;
+              background: #16d6e7;
+              top: 18px;
+              left: -20px;
+            }
+          }
+        }
+        .goto {
+          font-size: 22px;
+          @media screen and (max-width: 1680px) {
+            font-size: 20px;
+          }
+          color: #565656;
+          text-decoration: none;
+          padding-right: 28px;
+          background: url(../images/goto-icon.png) no-repeat right center;
+        }
+      }
+    }
+  }
+  .img2 {
+    position: relative;
+    color: #fff;
+    .msg-contain {
+      position: absolute;
+      top: 118px;
+      left: 12.7%;
+      @media screen and (max-width: 1680px) {
+        top: 50px;
+      }
+      .img2-msg {
+        font-size: 20px;
+        @media screen and (max-width: 1680px) {
+          font-size: 18px;
+        }
+        .msg-title {
+          font-size: 30px;
+          @media screen and (max-width: 1680px) {
+            font-size: 28px;
+          }
+        }
+        .border {
+          height: 0;
+          width: 78px;
+          border: 1px solid #17d6e8;
+          margin: 44px 0;
+          @media screen and (max-width: 1680px) {
+            margin: 25px 0;
+          }
+        }
+        .main-msg {
+          line-height: 38px;
+          .list{
+              line-height: 40px;
+              display: flex;
+              flex-direction: row;
+              align-items:center;
+            em {
+                display: block;
+                height: 5px;
+                width: 5px;
+                border-radius: 50%;
+                background: #16d6e7;
+                float: left;
+                margin-right: 10px;
+              }
+
+          }
+
+        }
+      }
+      .img2-msg2 {
+        margin-top: 60px;
+        @media screen and (max-width: 1680px) {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+  .img3,.img4,.img5{
+      color:#fff;
+      position: relative;
+      .img3-msg{
+          position: absolute;
+          width: 100%;
+          text-align: center;
+          top:310px;
+          .title{
+              font-size: 30px;
+              @media screen and (max-width: 1680px) {
+                font-size: 28px;
+              }
+          }
+          .border{
+              width: 78px;
+              height: 0;
+              border:1px solid #17d6e8;
+              margin:30px auto;
+          }
+          .msg-describe{
+              font-size: 20px;
+              @media screen and (max-width: 1680px) {
+                font-size: 18px;
+              }
+          }
+      }
+  }
+  .img4{
+      color:#565656;
+      .img3-msg{
+          top:64px;
+          @media screen and (max-width: 1680px) {
+            top: 30px;
+          }
+      }
+  }
+  .img5{
+    .img3-msg{
+        top:158px;
+    }
+  }
+}

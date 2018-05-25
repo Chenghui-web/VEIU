@@ -1,0 +1,214 @@
+.main {
+  color: #565656;
+}
+.main .img-bg {
+  width: 100%;
+  display: block;
+}
+.main .img1 {
+  position: relative;
+}
+.main .img1 .img1-msg {
+  position: absolute;
+  top: 60px;
+  right: 12.3%;
+}
+@media screen and (max-width: 1680px) {
+  .main .img1 .img1-msg {
+    top: 5px;
+  }
+}
+.main .img1 .img1-msg .msg-title {
+  font-size: 30px;
+}
+@media screen and (max-width: 1680px) {
+  .main .img1 .img1-msg .msg-title {
+    font-size: 28px;
+  }
+}
+.main .img1 .img1-msg .border {
+  height: 0;
+  width: 78px;
+  border: 1px solid #17d6e8;
+  margin: 48px 0;
+}
+@media screen and (max-width: 1680px) {
+  .main .img1 .img1-msg .border {
+    margin: 25px 0;
+  }
+}
+.main .img1 .img1-msg .main-msg {
+  font-size: 20px;
+}
+@media screen and (max-width: 1680px) {
+  .main .img1 .img1-msg .main-msg {
+    font-size: 18px;
+  }
+}
+.main .img1 .img1-msg .main-msg .msg-top {
+  line-height: 38px;
+}
+.main .img1 .img1-msg .main-msg .msg-bottom {
+  margin-top: 30px;
+  line-height: 38px;
+  margin-bottom: 48px;
+}
+@media screen and (max-width: 1680px) {
+  .main .img1 .img1-msg .main-msg .msg-bottom {
+    margin-top: 15px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+}
+.main .img1 .img1-msg .main-msg .msg-bottom .list {
+  position: relative;
+}
+.main .img1 .img1-msg .main-msg .msg-bottom .list em {
+  position: absolute;
+  display: block;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: #16d6e7;
+  top: 18px;
+  left: -20px;
+}
+.main .img1 .img1-msg .main-msg .goto {
+  font-size: 22px;
+  color: #565656;
+  text-decoration: none;
+  padding-right: 28px;
+  background: url(../images/goto-icon.png) no-repeat right center;
+}
+@media screen and (max-width: 1680px) {
+  .main .img1 .img1-msg .main-msg .goto {
+    font-size: 20px;
+  }
+}
+.main .img2 {
+  position: relative;
+  color: #fff;
+}
+.main .img2 .msg-contain {
+  position: absolute;
+  top: 118px;
+  left: 12.7%;
+}
+@media screen and (max-width: 1680px) {
+  .main .img2 .msg-contain {
+    top: 50px;
+  }
+}
+.main .img2 .msg-contain .img2-msg {
+  font-size: 20px;
+}
+@media screen and (max-width: 1680px) {
+  .main .img2 .msg-contain .img2-msg {
+    font-size: 18px;
+  }
+}
+.main .img2 .msg-contain .img2-msg .msg-title {
+  font-size: 30px;
+}
+@media screen and (max-width: 1680px) {
+  .main .img2 .msg-contain .img2-msg .msg-title {
+    font-size: 28px;
+  }
+}
+.main .img2 .msg-contain .img2-msg .border {
+  height: 0;
+  width: 78px;
+  border: 1px solid #17d6e8;
+  margin: 44px 0;
+}
+@media screen and (max-width: 1680px) {
+  .main .img2 .msg-contain .img2-msg .border {
+    margin: 25px 0;
+  }
+}
+.main .img2 .msg-contain .img2-msg .main-msg {
+  line-height: 38px;
+}
+.main .img2 .msg-contain .img2-msg .main-msg .list {
+  line-height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main .img2 .msg-contain .img2-msg .main-msg .list em {
+  display: block;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background: #16d6e7;
+  float: left;
+  margin-right: 10px;
+}
+.main .img2 .msg-contain .img2-msg2 {
+  margin-top: 60px;
+}
+@media screen and (max-width: 1680px) {
+  .main .img2 .msg-contain .img2-msg2 {
+    margin-top: 30px;
+  }
+}
+.main .img3,
+.main .img4,
+.main .img5 {
+  color: #fff;
+  position: relative;
+}
+.main .img3 .img3-msg,
+.main .img4 .img3-msg,
+.main .img5 .img3-msg {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 310px;
+}
+.main .img3 .img3-msg .title,
+.main .img4 .img3-msg .title,
+.main .img5 .img3-msg .title {
+  font-size: 30px;
+}
+@media screen and (max-width: 1680px) {
+  .main .img3 .img3-msg .title,
+  .main .img4 .img3-msg .title,
+  .main .img5 .img3-msg .title {
+    font-size: 28px;
+  }
+}
+.main .img3 .img3-msg .border,
+.main .img4 .img3-msg .border,
+.main .img5 .img3-msg .border {
+  width: 78px;
+  height: 0;
+  border: 1px solid #17d6e8;
+  margin: 30px auto;
+}
+.main .img3 .img3-msg .msg-describe,
+.main .img4 .img3-msg .msg-describe,
+.main .img5 .img3-msg .msg-describe {
+  font-size: 20px;
+}
+@media screen and (max-width: 1680px) {
+  .main .img3 .img3-msg .msg-describe,
+  .main .img4 .img3-msg .msg-describe,
+  .main .img5 .img3-msg .msg-describe {
+    font-size: 18px;
+  }
+}
+.main .img4 {
+  color: #565656;
+}
+.main .img4 .img3-msg {
+  top: 64px;
+}
+@media screen and (max-width: 1680px) {
+  .main .img4 .img3-msg {
+    top: 30px;
+  }
+}
+.main .img5 .img3-msg {
+  top: 158px;
+}
